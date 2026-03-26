@@ -59,7 +59,7 @@ export default function PostCreator() {
 
                     <textarea
                         rows="4"
-                        placeholder="寫下你的心情..."
+                        placeholder="寫下你的心情開心難過XDXDKL..."
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
                         style={{ resize: 'vertical' }}
