@@ -4,16 +4,27 @@
   --bg-color: #0d0d12;
   --card-bg: rgba(255, 255, 255, 0.05);
   --card-border: rgba(255, 255, 255, 0.1);
+<<<<<<< HEAD
   --primary: #8b5cf6;
   --secondary: #ec4899;
   --text-main: #ffffff;
   --text-muted: #a1a1aa;
+=======
+  --primary: #e3e2e7;
+  --secondary: #aba1a6;
+  --text-main: #ffffff;
+  --text-muted: #65659f;
+>>>>>>> 2cf0eec1486b65cec0e81e5da44e659e98cdaaa0
 }
 
 body {
   margin: 0;
   font-family: 'Outfit', sans-serif;
+<<<<<<< HEAD
   background: radial-gradient(circle at top left, #1e1b4b, #0d0d12);
+=======
+  background: radial-gradient(circle at top left, #d1872c, #d1872c);
+>>>>>>> 2cf0eec1486b65cec0e81e5da44e659e98cdaaa0
   color: var(--text-main);
   min-height: 100vh;
   overflow-x: hidden;
