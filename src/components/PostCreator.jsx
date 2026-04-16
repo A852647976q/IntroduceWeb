@@ -45,7 +45,7 @@ export default function PostCreator() {
                 className="glass-card"
             >
                 <h2 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span className="gradient-text">分享生活happy happy</span>
+                    <span className="gradient-text">分享生活</span>
                 </h2>
 
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -58,12 +58,11 @@ export default function PostCreator() {
                     />
 
                     <textarea
-                        rows="4"
-<<<<<<< HEAD
+                        rows="4" HEAD
                         placeholder="寫下你的心情..."
-=======
+
                         placeholder="寫下你的心情開心難過XDXDKL..."
->>>>>>> 2cf0eec1486b65cec0e81e5da44e659e98cdaaa0
+c1486b65cec0e81e5da44e659e98cdaaa0
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
                         style={{ resize: 'vertical' }}
