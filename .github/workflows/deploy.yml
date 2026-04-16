@@ -13,6 +13,6 @@ jobs:
         username: ${{ secrets.GCP_USERNAME }}
         key: ${{ secrets.GCP_SSH_PRIVATE_KEY }}
         script: |
-          cd ~/IntroduceWeb
+          cd ~/IntroduceWeb/IntroduceWeb
           ./update.sh
 
