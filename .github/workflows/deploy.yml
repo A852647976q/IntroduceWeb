@@ -12,7 +12,11 @@ jobs:
         host: ${{ secrets.GCP_HOST }}
         username: ${{ secrets.GCP_USERNAME }}
         key: ${{ secrets.GCP_SSH_PRIVATE_KEY }}
-        script: |
-          cd ~/IntroduceWeb/IntroduceWeb
-          ./update.sh
+      script: |
+        cd ~/IntroduceWeb/IntroduceWeb
+        git pull                     # 看看有沒有報 Permission denied
+        npm install
+        npm run build
+        git log -1 --format="%s"     # 印出最後一則 commit 訊息，確認伺服器拿到了沒
+        sudo systemctl restart nginx
 
