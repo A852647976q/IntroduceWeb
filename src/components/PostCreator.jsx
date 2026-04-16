@@ -45,13 +45,13 @@ export default function PostCreator() {
                 className="glass-card"
             >
                 <h2 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span className="gradient-text">分享生活</span>
+                    <span className="gradient-text">分享生活999</span>
                 </h2>
 
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     <input
                         type="text"
-                        placeholder="輸入標題..."
+                        placeholder="輸入標題...?"
                         value={title}
                         onChange={(e) => setTitle(e.target.value)}
                         style={{ fontSize: '1.2rem', fontWeight: 600 }}
@@ -61,7 +61,7 @@ export default function PostCreator() {
                         rows="4" HEAD
                         placeholder="寫下你的心情..."
 
-                        placeholder="寫下你的心情開心難過XDXDKL..."
+                        placeholder="寫下你的心情開心難過..."
 c1486b65cec0e81e5da44e659e98cdaaa0
                         value={content}
                         onChange={(e) => setContent(e.target.value)}
