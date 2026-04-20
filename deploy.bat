@@ -6,3 +6,4 @@ git commit -m "%commit_msg%"
 echo [2/3] Pushing to GitHub...
 git push
 pause
+
