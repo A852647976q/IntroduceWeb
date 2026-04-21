@@ -18,6 +18,7 @@ if errorlevel 1 (
 ) else (
     echo 📦 偵測到變更，正在打包檔案...
     git add -A
+    git status
     git commit -m "Auto Deploy: %date% %time%"
 )
 
