@@ -45,7 +45,7 @@ export default function PostCreator() {
                 className="glass-card"
             >
                 <h2 style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span className="gradient-text">分享生活5love</span>
+                    <span className="gradient-text">分享生活58love</span>
                 </h2>
 
                 <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
